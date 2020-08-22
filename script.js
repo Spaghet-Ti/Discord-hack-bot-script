@@ -1,1 +1,9 @@
-$(".textArea-12jD-V > div > div > span > span > span").innerHTML = textbox
+<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+
+var textbox = $(".textArea-12jD-V > div > div > span > span > span");
+textbox.innerHTML = "test"
+
+const enterKey = new Event("keydown", {keyCode: 13})
